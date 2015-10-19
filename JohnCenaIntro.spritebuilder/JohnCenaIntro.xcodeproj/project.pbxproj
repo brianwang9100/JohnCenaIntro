@@ -93,6 +93,7 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
+		DF45897C1BD16A540058F983 /* JohnCenaLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45897B1BD16A540058F983 /* JohnCenaLabel.swift */; settings = {ASSET_TAGS = (); }; };
 		DF7A83671BD06A3100FFD377 /* JohnCenaIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7A83661BD06A3100FFD377 /* JohnCenaIntro.mp3 */; settings = {ASSET_TAGS = (); }; };
 		DF7A83691BD06C3200FFD377 /* JohnCena.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A83681BD06C3200FFD377 /* JohnCena.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -213,6 +214,7 @@
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
+		DF45897B1BD16A540058F983 /* JohnCenaLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnCenaLabel.swift; sourceTree = "<group>"; };
 		DF7A83661BD06A3100FFD377 /* JohnCenaIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JohnCenaIntro.mp3; sourceTree = "<group>"; };
 		DF7A83681BD06C3200FFD377 /* JohnCena.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnCena.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -441,6 +443,7 @@
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				7A046D7519E84C36004C4763 /* MainScene.swift */,
 				DF7A83681BD06C3200FFD377 /* JohnCena.swift */,
+				DF45897B1BD16A540058F983 /* JohnCenaLabel.swift */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 			);
 			name = Source;
@@ -821,6 +824,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73789871807631A0076A88C /* main.m in Sources */,
+				DF45897C1BD16A540058F983 /* JohnCenaLabel.swift in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 				DF7A83691BD06C3200FFD377 /* JohnCena.swift in Sources */,
